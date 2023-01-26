@@ -29,6 +29,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCase.Test", "tests\UseCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Test", "tests\WebApi.Test\WebApi.Test.csproj", "{76429574-2D6A-4B4E-996F-B9AFBCB9E350}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docker", ".docker", "{A8039BFC-22BB-4338-8E73-1758BB9FD16F}"
+	ProjectSection(SolutionItems) = preProject
+		.docker\docker-compose.yml = .docker\docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
